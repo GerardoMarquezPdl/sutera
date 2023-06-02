@@ -1,0 +1,104 @@
+/*
+ * CSS Stylesheet for Sutera - Task for eJam
+ * Made by Gerardo Marquez
+ */
+
+/* ==========================================================================
+   Base styles
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+
+::-moz-selection {
+  background: #ffbd03;
+  text-shadow: none;
+}
+
+::selection {
+  background: #ffbd03;
+  text-shadow: none;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+
+/* ==========================================================================
+   SUTERA
+   ========================================================================== */
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  color: #323232;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  text-align: center;
+  overflow: auto;
+  overflow-x: hidden;
+  max-width: 100%;
+  scroll-behavior: smooth;
+}
+
+a,
+button,
+input,
+select,
+textarea {
+  text-decoration: none!important;
+  outline: none!important;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+header, section, footer {
+  width: 100%;
+  float: left;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main {
+  background-color: #F5F5F5FF;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
